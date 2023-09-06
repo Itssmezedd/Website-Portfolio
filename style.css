@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    background-color: #222831;
+
+}
+
+::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #34373c;
+}
+
+hr {
+    border-color: #34373c;
+    margin: 10px;
+    margin-top: 15px;
+    padding: 3px;
+}
+
+/* ---------------NAVIGATION--------------- */
+nav {
+    position: fixed;
+    text-align: right;
+
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+
+    font-family: 'ADLaM Display', cursive;
+    font-size: 33px;
+    font-weight: lighter;
+
+    letter-spacing: 3px;
+    color: #07949b;
+}
+
+nav a {
+    margin-right: 25px;
+    color: #EEEEEE;
+    text-decoration: none;
+
+    font-family: 'Azeret Mono', monospace;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+/* ---------------SECTION--------------- */
+section {
+    margin-top: 130px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* ---------------ABOUT ME--------------- */
+section .aboutme {
+    height: 485px;
+}
+
+section .profile {
+    float: right;
+    margin-top: 3.5%;
+    margin-right: 23%;
+}
+
+section .info {
+    float: left;
+    margin-top: 11.5%;
+    margin-left: 23%;
+    width: 28%;
+}
+
+section .profile img {
+    height: 350px;
+    width: 350px;
+    border-radius: 30px;
+
+    filter: brightness(95%);
+    padding: 10px;
+}
+
+section .info h1 {
+    color: #EEEEEE;
+
+    font-family: 'Azeret Mono', monospace;
+    font-weight: normal;
+    font-size: 35px;
+    letter-spacing: 3px;
+    margin-bottom: 2px;
+}
+
+section .info h3 {
+    color: #cccccc;
+
+    font-family: 'Azeret Mono', monospace;
+    font-weight: normal;
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+
+/* ---------------CERTIFICATES---------------- */
+section .certif-section {
+    padding-top: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    height: 1500px;
+}
+
+section .certif-section .certif-title {
+    text-align: center;
+    color: #07949b;
+
+    font-family: 'Azeret Mono', monospace;
+    letter-spacing: 5px;
+    margin-top: 13%;
+    margin-right: 35px;
+    font-size: 19px;
+
+    margin-bottom: 50px;
+}
+
+section .certif-section .container {
+    margin-left: 100px;
+}
+
+section .certif-picture {
+    float: left;
+    margin: 20px;
+}
+
+section .certif-picture img {
+    height: 400px;
+}
+
+section .certif-picture .desc {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 30px;
+    color: #cccccc;
+
+    font-family: 'Azeret Mono', monospace;
+    font-weight: lighter;
+    font-size: 12px;
+    letter-spacing: 1px;
+    width: 500px;
+}
+
+/* ----------------PROJECTS------------------ */
+section .proj-section {
+    clear: left;
+
+    padding-top: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    height: 1000px;
+}
+
+section .proj-section .proj-title {
+    text-align: center;
+    color: #07949b;
+
+    font-family: 'Azeret Mono', monospace;
+    letter-spacing: 5px;
+    margin-top: 13%;
+    margin-right: 35px;
+    font-size: 19px;
+
+    margin-bottom: 50px;
+}
+
+section .proj-section .container {
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+section .proj-section h3 {
+    letter-spacing: 3px;
+}
+
+section .proj-section .desc {
+    float: left;
+    color: #cccccc;
+
+    font-family: 'Azeret Mono', monospace;
+    font-weight: lighter;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    width: 500px;
+}
+
+
+section .project {
+    margin: 20px;
+    margin-bottom: 100px;
+}
+
+section .proj-picture img {
+    margin: 10px;
+    margin-left: 50px;
+    height: 163.6px;
+
+    border-radius: 30px;
+
+    filter: brightness(95%);
+    padding: 10px;
+
+    background-color:#04555b;;
+}
