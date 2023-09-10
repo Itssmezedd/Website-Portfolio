@@ -1,0 +1,98 @@
+@media (max-width:700px) {
+
+    /* ---------------NAVIGATION--------------- */
+    nav h1 {
+        font-size: 27px;
+    }
+
+    nav a {
+        font-size: 10px;
+
+    }
+
+    /* ---------------ABOUT ME--------------- */
+    section .aboutme {
+        height: 230px;
+    }
+
+    section .profile {
+        float: right;
+        margin-right: 13%;
+    }
+
+    section .info {
+        float: left;
+        margin-top: 11.5%;
+        margin-left: 8%;
+        width: 40%;
+    }
+
+    section .profile img {
+        height: 150px;
+        width: 150px;
+    }
+
+    section .info h1 {
+        font-size: 20px;
+    }
+
+    section .info h3 {
+        font-size: 8px;
+    }
+
+    /* ---------------CERTIFICATES---------------- */
+
+    section .certif-section .certif-title {
+        margin-top: 10%;
+        margin-bottom: 2%;
+        font-size: 12px;
+    }
+
+    section .certif-section .container {
+        margin-left: 5px;
+    }
+
+    section .certif-picture {
+        float: left;
+        margin: 20px;
+    }
+
+    section .certif-picture img {
+        margin-left: 10px;
+        height: 230px;
+    }
+
+    section .certif-picture .desc {
+        font-size: 8px;
+        width: 300px;
+
+    }
+
+    /* ----------------PROJECTS------------------ */
+    section .proj-section {
+        height: 1600px;
+    }
+
+    section .proj-section .proj-title {
+        margin-top: 25%;
+        margin-bottom: 2%;
+        font-size: 12px;
+    }
+
+    section .proj-section .container {
+        margin-left: 5px;
+        margin-top: 50px;
+    }
+
+    section .proj-section .desc {
+        font-size: 10px;
+        margin-bottom: 30px;
+        width: 330px;
+    }
+
+    section .proj-picture img {
+        margin: 10px;
+        margin-left: 20px;
+        height: 150px;
+    }
+}
